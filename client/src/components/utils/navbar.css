@@ -1,0 +1,39 @@
+nav {
+    background: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    box-shadow: 0 7px 12px #00000027;
+    padding: 0 30px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+nav .left-nav {
+    gap: 3vw;
+    align-items: center;
+}
+
+.left-nav .bar {
+    font-size: 35px;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+nav .logo {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+nav .profile {
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #364aff;
+    box-shadow: 0 3px 3px #6f6fff10;
+    cursor: pointer;
+}
